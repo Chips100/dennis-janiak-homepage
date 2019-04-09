@@ -1,0 +1,104 @@
+{
+  "aboutMe": "Über mich",
+  "career": "Karriere",
+  "education": "Ausbildung",
+  "skills": "Kenntnisse",
+
+  "careerItems": [
+    {
+      "title": "Dataport, Anstalt öffentlichen Rechts",
+      "subtitle": "ab 06.2016",
+      "keywords": [
+        ".NET", "C#", "ASP.NET MVC", "Angular", "TypeScript", "MongoDB", "WPF", "git", "DevOps", "DDD", "TDD", "SCRUM"
+      ],
+      "content": [
+        "Bei Dataport konnte ich mich besonders in Hinblick auf Softwarearchitekturen und den Einsatz der SOLID Prinzipien in der Praxis weiterentwickeln. Durch die Mitarbeit an einem intern entwickelten Framework konnte ich das Verwalten von Abhängigkeiten und den Einsatz semantischer Versionierung lernen. In mehreren Projekten war ich an der Konfiguration von CI und CD über den TFS beteiligt. Durch den Einsatz von Methoden wie SCRUM, Domain Driven Design und testgetriebener Entwicklung lernte ich, Software zielgerichteter zu entwickeln. ",
+        "Inhaltlich erhielt ich Einblicke in diverse Themen von öffentlichem Interesse, wie dem Flächenmanagement, der Schulverwaltung und der Projektförderung.",
+        "Technisch habe ich die Entwicklung von Webanwendungen mit Angular + Angular Material und TypeScript gelernt; damit geht auch der Umgang mit npm, Jasmine, Karma und zusätzlich auch Jest einher. Durch den Einsatz von MongoDB habe ich auch Erfahrung mit NoSQL-Datenbanken gesammelt. Zusätzlich konnte ich mich auch mit weiteren Frameworks und Bibliotheken vertraut machen, wie WPF, AutoMapper, Ninject und DevExpress, sowie dem Einsatz von Resharper und der Versionsverwaltung mit git.",
+        "Als besondere Fortbildungsmaßnahmen durfte ich 2017 die BASTA! in Mainz und 2018 die Developer Week in Nürnberg besuchen."
+      ]
+    },
+
+    {
+      "title": "NeoGeo New Media GmbH",
+      "subtitle": "08.2010 - 05.2016",
+      "keywords": [
+        ".NET", "C#", "ASP.NET MVC", "AngularJS", "Javascript", "Bootstrap", "jQuery", "ASP.NET WebForms"
+      ],
+      "content": [
+        "Bei der NeoGeo New Media GmbH habe ich meine Ausbildung als Fachinformatiker (Anwendungsentwicklung) absolviert und im Anschluss drei Jahre weitere Erfahrungen gesammelt. Ich war an der Pflege und Weiterentwicklung einer umfangreichen Bestandsanwendung beteiligt, konnte aber auch beim Entstehen neuer Projekte mitwirken.",
+        "Inhaltlich erhielt ich Einblicke in die Themen Energiewirtschaft, softwaregestütztes kollaboratives Arbeiten und Finanzmanagement mit Risikobewertung.",
+        "Technisch konnte ich mich mit den Technologien der Webentwicklung vertraut machen, dazu zählen neben ASP.NET MVC mit AngularJS und Bootstrap auch diverse Frameworks und Bibliotheken wie jQuery + jQuery UI, Entity Framework, WCF und ASP.NET WebForms, sowie die Datenhaltung mit Microsofts SQL Server.",
+        "Zusätzlich konnte ich viele weitere Technologien für andere Problemstellungen an realen Problemstellungen ausprobieren, wie Cordova (ehemalig PhoneGap), Xamarin, Windows Services, WIX, Silverlight."
+      ]
+    }
+  ],
+
+  "educationItems": [
+    {
+      "title": "Studium: B.Sc. Informatik",
+      "subtitle": "Abschluss voraussichtlich 2020",
+      "content": [
+        "Kurz nach Abschluss meiner Ausbildung habe ich mich dazu entschlossen, ein Teilzeitstudium neben der Arbeit zu beginnen. Aus Interesse an theoretischen Grundlagen mit deren mathematischen Hintergründen habe ich mich für das Studium der Informatik an der FernUniversität in Hagen entschieden."
+      ],
+      "checklists": [
+        {
+          "title": "Wahlmodule",
+          "items": [
+            { "label": "Software Engineering I", "score": "1,7" },
+            { "label": "Sicherheit im Internet", "score": "1,7" },
+            { "label": "Übersetzerbau", "score": "1,3" },
+            { "label": "Moderne Programmiertechniken und - methoden", "score": "[Prüfung am 09.05.2019]" }
+          ]
+        },
+
+        {
+          "title": "Ausstehende Aufgaben",
+          "items": [
+            { "label": "Seminar: e-Government" },
+            { "label": "Anerkennung berufspraktischer Leistungen (Fachpraktikum)" },
+            { "label": "Bachelorarbeit" }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "title": "Ausbildung: Fachinformatiker - Anwendungsentwicklung",
+      "subtitle": "Abschluss 2013",
+      "content": [
+        "Im Anschluss an die schulische Laufbahn habe ich eine Ausbildung als Fachinformatiker (Fachrichtung Anwendungsentwicklung) bei der NeoGeo New Media GmbH in Elmshorn begonnen. Diese beendete ich im Wintersemester 2012/13 (verkürzt auf 2,5 Jahre) mit Auszeichnung der IHK als Prüfungsbester."
+      ]
+    },
+
+    {
+      "title": "Schulabschluss: Allgemeine Hochschulreife",
+      "subtitle": "Abschluss 2010",
+      "content": [
+        "Meine schulische Laufbahn endete 2010 mit dem Abitur (Abschlussnote 2,0) am Detlefsengymnasium in Glückstadt."
+      ]
+    }
+  ],
+
+  "skillsItems": [
+    {
+      "level": "Professionelle Erfahrung",
+      "text": "In dieser Kategorie sind alle Themen aufgelistet, mit denen ich sehr gut vertraut bin. Dazu zählen Technologien, die ich über lange Zeit hinweg in der regelmäßigen Arbeit praktisch angewandt habe und ebenfalls die theoretischen Hintergründe dazu beherrsche.",
+      "keywords": ["C#", ".NET", "ASP.NET MVC", "Entity Framework", "LINQ", "SQL", "ASP.NET WebForms", "TypeScript", "Javascript", "Angular", "Angular Material", "AngularJS", "Bootstrap", "jQuery", "jQuery UI"]
+    },
+    
+    {
+      "level": "Nicht-professionelle Erfahrung",
+      "text": "In dieser Kategorie sind Themen aufgelistet, mit denen ich mich aus persönlichem Antrieb näher beschäftigt habe und zumindest etwas mehr als Grundkenntnisse besitze.",
+      "keywords": ["Android", "Java", "F#", "Chrome Extensions", "Node", "IoT"] 
+    }
+  ],
+  "notableReadingsTitle": "Bedeutendste Fachliteratur",
+  "notableReadings": [
+    { "title": "CLR via C#", "author": "Jeffrey Richter" },
+    { "title": "C# in Depth", "author": "Jon Skeet" },
+    { "title": "Real-World functional programming", "author": "Tomas Petricek" },
+    { "title": "Adaptive Code via C#", "author": "Gary McLean Hall" },
+    { "title": "Clean-Serie (Code, Coder, Architecture)", "author": "Robert C. Martin" }
+  ]
+}

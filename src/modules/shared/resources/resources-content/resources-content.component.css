@@ -1,0 +1,7 @@
+.loading-spinner-container {
+    min-height: 10em;
+}
+
+.loading-spinner {
+    margin: 2em auto;
+}

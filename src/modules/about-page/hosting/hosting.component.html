@@ -1,0 +1,16 @@
+<dj-resources-content [resourcesHandle]="resources">
+  <ng-template>
+    <div class="container">
+      <p *ngFor="let line of resources.values.hosting.body">{{ line }}</p>
+
+      <mat-card class="topic-container" *ngFor="let topic of resources.values.hosting.topics">
+        <mat-card-title>
+          {{ topic.title }}
+        </mat-card-title>
+        <mat-card-content>
+          <p *ngFor="let line of topic.body">{{ line }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </ng-template>
+</dj-resources-content>

@@ -1,0 +1,28 @@
+<mat-toolbar color="primary">
+  <dj-resources-content [resourcesHandle]="resources" [noLoadingSpinner]="true">
+    <ng-template>
+      <span>{{ resources.values.navbar.label }} &nbsp;</span>
+    </ng-template>
+  </dj-resources-content>
+
+  <!-- Right aligned: Language selector and menu. -->
+  <span class="fill-remaining-space"></span>
+  <dj-language-selector></dj-language-selector>
+
+  <!-- Menu with all available navigation options. -->
+  <dj-resources-content [resourcesHandle]="resources" [noLoadingSpinner]="true">
+    <ng-template>
+        <mat-menu #navigationMenu="matMenu" [overlapTrigger]="false">
+            <a *ngFor="let link of resources.values.navbar.links" mat-menu-item 
+                [routerLink]="link.link" routerLinkActive="link-active">
+                {{ link.label }}
+            </a>
+        </mat-menu>
+
+        <!-- Icon allows opening of the menu. -->
+        <button mat-icon-button [matMenuTriggerFor]="navigationMenu" class="navigation-menu-button">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </ng-template>
+  </dj-resources-content>
+</mat-toolbar>

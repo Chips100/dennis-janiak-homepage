@@ -1,0 +1,38 @@
+<dj-resources-content [resourcesHandle]="resources">
+  <ng-template>
+    <div style="padding: 1em">
+        <mat-card *ngFor="let item of resources.values.skillsItems" style="margin-bottom:1em;">
+          <mat-card-title>
+            {{ item.level }}
+          </mat-card-title>
+
+          <mat-card-content>
+            <p>{{ item.text }}</p>
+          </mat-card-content>
+          
+          <mat-card-content>
+            <mat-chip-list>
+              <mat-chip *ngFor="let keyword of item.keywords">{{ keyword }}</mat-chip>
+            </mat-chip-list>
+          </mat-card-content>
+        </mat-card>
+
+        <mat-card>
+          <mat-card-title>
+            {{ resources.values.notableReadingsTitle }}
+          </mat-card-title>
+          <mat-card-content>
+              <mat-list>
+              <mat-list-item *ngFor="let reading of resources.values.notableReadings">
+                  <div class="reading">
+                      <span>{{ reading.title }}</span>
+                      <span class="separator"></span>
+                      <span class="right">{{ reading.author }}</span>
+                  </div>
+              </mat-list-item>
+              </mat-list>
+          </mat-card-content>
+        </mat-card>
+    </div>
+  </ng-template>
+</dj-resources-content>

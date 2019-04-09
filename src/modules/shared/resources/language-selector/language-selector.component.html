@@ -1,0 +1,14 @@
+<!-- Menu with all available languages. -->
+<mat-menu #languageMenu="matMenu" [overlapTrigger]="false">
+    <button mat-menu-item 
+        *ngFor="let language of languages"
+        (click)="selectLanguage(language)">
+        <mat-icon class="selected-icon" [ngClass]="{ active: isSelected(language) }">done</mat-icon>
+        {{ language.displayName }}
+    </button>
+</mat-menu>
+
+<!-- Icon button allows opening of the menu. -->
+<button mat-icon-button [matMenuTriggerFor]="languageMenu">
+    <mat-icon>language</mat-icon>
+</button>

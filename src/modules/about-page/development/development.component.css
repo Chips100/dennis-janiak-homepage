@@ -1,0 +1,11 @@
+.container {
+  margin: 1em;
+}
+
+.project-container {
+  margin: 1em 0;
+}
+
+.github-link {
+  float: right;
+}

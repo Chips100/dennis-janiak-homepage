@@ -1,0 +1,17 @@
+{
+    "introduction": {
+        "title": "Herzlich Willkommen!",
+        "body": [
+            "Mein Name ist Dennis Janiak und ich bin Softwareentwickler aus Norddeutschland.",
+            "Auf dieser Seite möchte ich mich, meine bisherigen Erfahrungen in der Softwareentwicklung und meine Freizeitprojekte vorstellen."
+        ]
+    },
+    "navbar": {
+        "label": "Dennis Janiak",
+        "links": [
+            { "label": "Start", "link": "/home" },
+            { "label": "Über mich", "link": "/aboutme" },
+            { "label": "Über diese Seite", "link": "/aboutpage" }
+        ]
+    }
+}

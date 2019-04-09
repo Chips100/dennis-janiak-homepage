@@ -1,0 +1,17 @@
+{
+    "introduction": {
+        "title": "Welcome!",
+        "body": [
+            "My name is Dennis Janiak and I am a software developer from Northern Germany.",
+            "On this page I want to introduce myself and share my experiences in the world of software development so far, as well as present some projects I did in my spare time."
+        ]
+    },
+    "navbar": {
+        "label": "Dennis Janiak",
+        "links": [
+            { "label": "Home", "link": "/home" },
+            { "label": "About me", "link": "/aboutme" },
+            { "label": "About this page", "link": "/aboutpage" }
+        ]
+    }
+}

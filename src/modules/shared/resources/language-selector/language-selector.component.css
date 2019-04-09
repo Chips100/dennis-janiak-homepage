@@ -1,0 +1,7 @@
+.selected-icon {
+    visibility: hidden;
+}
+
+.selected-icon.active {
+    visibility: visible;
+}

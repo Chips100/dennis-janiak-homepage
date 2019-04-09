@@ -1,0 +1,22 @@
+<dj-resources-content [resourcesHandle]="resources">
+  <ng-template>
+    <div class="mat-typography">
+      <mat-card>
+        <mat-card-title>{{ resources.values.aboutMe }}</mat-card-title>
+        <mat-card-content>
+          <mat-tab-group>
+            <mat-tab [label]="resources.values.career">
+              <dj-career></dj-career>
+            </mat-tab>
+            <mat-tab [label]="resources.values.education">
+              <dj-education></dj-education>
+            </mat-tab>
+            <mat-tab [label]="resources.values.skills">
+              <dj-skills></dj-skills>
+            </mat-tab>
+          </mat-tab-group>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </ng-template>
+</dj-resources-content>

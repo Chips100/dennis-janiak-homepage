@@ -1,0 +1,16 @@
+.second-level-title, .second-level-title > * {
+    margin-top: 0.5em !important;
+    margin-bottom: 0 !important;
+}
+
+.achievement {
+    display: flex;
+    width: 100%;
+}
+.achievement .separator {
+    min-width: 2em;
+    flex: 1 1 auto;
+}
+.achievement .right {
+    text-align: right;
+}

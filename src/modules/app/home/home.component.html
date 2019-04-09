@@ -1,0 +1,15 @@
+<dj-resources-content [resourcesHandle]="resources">
+  <ng-template>
+      <mat-card>
+        <mat-card-title>
+          {{ resources.values.introduction.title }}
+        </mat-card-title>
+        <mat-card-content>
+          <div>
+              <p *ngFor="let line of resources.values.introduction.body">{{ line }}</p>
+          </div>
+        </mat-card-content>
+        <img mat-card-image src="assets/images/home.jpg" />
+      </mat-card>
+  </ng-template>
+</dj-resources-content>
