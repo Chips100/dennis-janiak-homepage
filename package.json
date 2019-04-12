@@ -4,8 +4,12 @@
   "description": "My personal online appearance hosted on https://www.dennis-janiak.de/",
   "jest": {
     "preset": "jest-preset-angular",
-    "testPathIgnorePatterns": ["<rootDir>/src/test.ts"],
-    "setupFilesAfterEnv": ["<rootDir>/setupJest.ts"]
+    "testPathIgnorePatterns": [
+      "<rootDir>/src/test.ts"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupJest.ts"
+    ]
   },
   "scripts": {
     "ng": "ng",
