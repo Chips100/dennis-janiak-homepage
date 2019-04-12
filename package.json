@@ -17,7 +17,8 @@
     "build": "ng build --prod",
     "test": "jest",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "npm run build && firebase login && firebase deploy"
   },
   "author": "Dennis Janiak",
   "license": "MIT",
@@ -50,6 +51,7 @@
     "@types/jest": "^24.0.11",
     "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
+    "firebase-tools": "^6.6.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "jest": "^24.7.1",
