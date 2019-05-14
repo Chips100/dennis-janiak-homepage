@@ -39,7 +39,7 @@
       "title": "Studium: B.Sc. Informatik",
       "subtitle": "Abschluss voraussichtlich 2020",
       "content": [
-        "Kurz nach Abschluss meiner Ausbildung habe ich mich dazu entschlossen, ein Teilzeitstudium neben der Arbeit zu beginnen. Aus Interesse an theoretischen Grundlagen mit deren mathematischen Hintergründen habe ich mich für das Studium der Informatik an der FernUniversität in Hagen entschieden."
+        "Kurz nach Abschluss meiner Ausbildung habe ich mich dazu entschlossen, ein Teilzeitstudium neben der Arbeit zu beginnen. Aus Interesse an den theoretischen Grundlagen zu meiner täglichen Arbeit mit deren mathematischen Hintergründen habe ich mich für das Studium der Informatik an der FernUniversität in Hagen entschieden."
       ],
       "checklists": [
         {
@@ -48,7 +48,7 @@
             { "label": "Software Engineering I", "score": "1,7" },
             { "label": "Sicherheit im Internet", "score": "1,7" },
             { "label": "Übersetzerbau", "score": "1,3" },
-            { "label": "Moderne Programmiertechniken und - methoden", "score": "[Prüfung am 09.05.2019]" }
+            { "label": "Moderne Programmiertechniken und - methoden", "score": "1,0" }
           ]
         },
 
