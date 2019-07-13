@@ -8,7 +8,9 @@ export class AppResources implements Resources {
 
     public readonly introduction: {
         title: string,
-        body: string[]
+        body: string[],
+        aboutMe: string,
+        contactMe: string
     };
 
     public readonly navbar: {

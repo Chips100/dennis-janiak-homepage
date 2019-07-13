@@ -6,3 +6,12 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.centered {
+    text-align: center;
+}
+
+a.unstyled {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,7 +1,7 @@
 <mat-toolbar color="primary">
   <dj-resources-content [resourcesHandle]="resources" [noLoadingSpinner]="true">
     <ng-template>
-      <span>{{ resources.values.navbar.label }} &nbsp;</span>
+      <a routerLink="/home" class="unstyled">{{ resources.values.navbar.label }} &nbsp;</a>
     </ng-template>
   </dj-resources-content>
 

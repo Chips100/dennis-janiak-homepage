@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from '../shared/shared.module';
@@ -35,6 +36,7 @@ const languages: Language[] = [
     MatIconModule,
     MatMenuModule,
     MatToolbarModule,
+    MatTooltipModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'aboutme', loadChildren: '../about-me/about-me.module#AboutMeModule' },

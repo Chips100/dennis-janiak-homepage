@@ -4,7 +4,9 @@
         "body": [
             "My name is Dennis Janiak and I am a software developer from Northern Germany.",
             "On this page I want to introduce myself and share my experiences in the world of software development so far, as well as present some projects I did in my spare time."
-        ]
+        ],
+        "aboutMe": "Learn more about me",
+        "contactMe": "Contact me"
     },
     "navbar": {
         "label": "Dennis Janiak",
