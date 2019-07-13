@@ -36,7 +36,7 @@
 
   "educationItems": [
     {
-      "title": "Studium: B.Sc. Informatik",
+      "title": "B.Sc. Informatik",
       "subtitle": "Abschluss voraussichtlich 2020",
       "content": [
         "Kurz nach Abschluss meiner Ausbildung habe ich mich dazu entschlossen, ein Teilzeitstudium neben der Arbeit zu beginnen. Aus Interesse an theoretischen Grundlagen mit deren mathematischen Hintergründen habe ich mich für das Studium der Informatik an der FernUniversität in Hagen entschieden."
@@ -82,23 +82,23 @@
 
   "skillsItems": [
     {
-      "level": "Professionelle Erfahrung",
-      "text": "In dieser Kategorie sind alle Themen aufgelistet, mit denen ich sehr gut vertraut bin. Dazu zählen Technologien, die ich über lange Zeit hinweg in der regelmäßigen Arbeit praktisch angewandt habe und ebenfalls die theoretischen Hintergründe dazu beherrsche.",
+      "level": "Professional experience",
+      "text": "The following list shows all technologies that I have used in my daily work for a long time and gained a deep understanding of them by learning about their inner workings or technical backgrounds.",
       "keywords": ["C#", ".NET", "ASP.NET MVC", "Entity Framework", "LINQ", "SQL", "ASP.NET WebForms", "TypeScript", "Javascript", "Angular", "Angular Material", "AngularJS", "Bootstrap", "jQuery", "jQuery UI"]
     },
     
     {
-      "level": "Nicht-professionelle Erfahrung",
-      "text": "In dieser Kategorie sind Themen aufgelistet, mit denen ich mich aus persönlichem Antrieb näher beschäftigt habe und zumindest etwas mehr als Grundkenntnisse besitze.",
+      "level": "Non-professional experience",
+      "text": "The following list shows some technologies that I made myself more familiar with out of personal interest. Thus, I have more than just a basic level of understanding about them, but no expert level experience.",
       "keywords": ["Android", "Java", "F#", "Chrome Extensions", "Node", "IoT"] 
     }
   ],
-  "notableReadingsTitle": "Bedeutendste Fachliteratur",
+  "notableReadingsTitle": "Favorite books",
   "notableReadings": [
     { "title": "CLR via C#", "author": "Jeffrey Richter" },
     { "title": "C# in Depth", "author": "Jon Skeet" },
     { "title": "Real-World functional programming", "author": "Tomas Petricek" },
     { "title": "Adaptive Code via C#", "author": "Gary McLean Hall" },
-    { "title": "Clean-Serie (Code, Coder, Architecture)", "author": "Robert C. Martin" }
+    { "title": "Clean-Series (Code, Coder, Architecture)", "author": "Robert C. Martin" }
   ]
 }
