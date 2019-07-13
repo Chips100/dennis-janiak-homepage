@@ -38,7 +38,6 @@ const languages: Language[] = [
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'aboutme', loadChildren: '../about-me/about-me.module#AboutMeModule' },
-      { path: 'aboutpage', loadChildren: '../about-page/about-page.module#AboutPageModule' },
       { path: '', redirectTo: '/home', pathMatch: 'full' }
     ]),
     SharedModule

@@ -10,8 +10,7 @@
         "label": "Dennis Janiak",
         "links": [
             { "label": "Home", "link": "/home" },
-            { "label": "About me", "link": "/aboutme" },
-            { "label": "About this page", "link": "/aboutpage" }
+            { "label": "About me", "link": "/aboutme" }
         ]
     }
 }
