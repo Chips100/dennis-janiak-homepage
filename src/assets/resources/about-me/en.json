@@ -3,7 +3,7 @@
   "career": "Career",
   "education": "Education",
   "skills": "Skills",
-
+ 
   "careerItems": [
     {
       "title": "Dataport, AöR",
@@ -12,13 +12,13 @@
         ".NET", "C#", "ASP.NET MVC", "Angular", "TypeScript", "MongoDB", "WPF", "git", "DevOps", "DDD", "TDD", "SCRUM"
       ],
       "content": [
-        "Working at Dataport, I especially improved on architectural aspects of software development and applying SOLID principles in practice. By contributing to an internal framework I learned about carefully managing dependencies and using semantic versioning. I was involved in configuration of CI and CD with TFS in multiple projects. I learned a lot about focused development of solutions by applying principles like SCRUM, Domain Driven Design and Test Driven Development.",
+        "Working at Dataport, I especially improved on architectural aspects of software development and applying SOLID principles in practice. By contributing to an in-house framework I learned about carefully managing dependencies and using semantic versioning. I was involved in setting up CI and CD with TFS in multiple projects. I learned a lot about focused development of solutions by applying principles like SCRUM, Domain Driven Design and Test Driven Development.",
         "The projects I worked on dealt with several problems from the domain of public administration and government, like management of areas, administration of schools and support of public projects.",
-        "I contributed to solutions developed with Angular + Angular Material in TypeScript, which also includes working with npm, jasmine, karma and also jest. By using MongoDB in a project I was able to gain experience with NoSQL in a real-world project. In addition, I got familiar with several other frameworks and libraries, like WPF, AutoMapper, Ninject and Devexpress, as well as daily use of Resharper and version control with git.",
+        "I contributed to solutions developed with Angular + Angular Material in TypeScript, which includes working with npm, jasmine, karma and also jest. By using MongoDB in a project I was able to gain experience with NoSQL in a real-world project. In addition, I got familiar with several other frameworks and libraries, like WPF, AutoMapper, Ninject and Devexpress, as well as daily use of Resharper and version control with git.",
         "For further education, I took the chance to attend the BASTA! conference in Mainz in 2017 and the Developer Week in Nuremberg in 2018."
       ]
     },
-
+ 
     {
       "title": "NeoGeo New Media GmbH",
       "subtitle": "August 2010 - May 2016",
@@ -33,64 +33,64 @@
       ]
     }
   ],
-
+ 
   "educationItems": [
     {
-      "title": "B.Sc. Informatik",
-      "subtitle": "Abschluss voraussichtlich 2020",
+      "title": "B.Sc. Computer Science",
+      "subtitle": "Graduation 2020 (planned)",
       "content": [
-        "Kurz nach Abschluss meiner Ausbildung habe ich mich dazu entschlossen, ein Teilzeitstudium neben der Arbeit zu beginnen. Aus Interesse an theoretischen Grundlagen mit deren mathematischen Hintergründen habe ich mich für das Studium der Informatik an der FernUniversität in Hagen entschieden."
+        "Shortly after concluding my apprenticeship I decided to start studying computer science part time in addition to my job. Because of my interest in the theoretical backgrounds of my daily work as well as their mathematical foundations, I decided to enrol in the course of computer science (B.Sc.) at the FernUniversität in Hagen, which allows studying from home."
       ],
       "checklists": [
         {
-          "title": "Wahlmodule",
+          "title": "Modules",
           "items": [
             { "label": "Software Engineering I", "score": "1,7" },
-            { "label": "Sicherheit im Internet", "score": "1,7" },
-            { "label": "Übersetzerbau", "score": "1,3" },
-            { "label": "Moderne Programmiertechniken und - methoden", "score": "1,0" }
+            { "label": "Security on the internet", "score": "1,7" },
+            { "label": "Compilers", "score": "1,3" },
+            { "label": "Modern programming techniques and methods", "score": "1,0" }
           ]
         },
-
+ 
         {
-          "title": "Ausstehende Aufgaben",
+          "title": "To-Do",
           "items": [
             { "label": "Seminar: e-Government" },
-            { "label": "Anerkennung berufspraktischer Leistungen (Fachpraktikum)" },
-            { "label": "Bachelorarbeit" }
+            { "label": "Acknowledgment of experience from work" },
+            { "label": "Bachelor thesis" }
           ]
         }
       ]
     },
-    
+   
     {
-      "title": "Ausbildung: Fachinformatiker - Anwendungsentwicklung",
-      "subtitle": "Abschluss 2013",
+      "title": "Apprenticeship: IT-Specialist specialised in software development",
+      "subtitle": "Graduation 2013",
       "content": [
-        "Im Anschluss an die schulische Laufbahn habe ich eine Ausbildung als Fachinformatiker (Fachrichtung Anwendungsentwicklung) bei der NeoGeo New Media GmbH in Elmshorn begonnen. Diese beendete ich im Wintersemester 2012/13 (verkürzt auf 2,5 Jahre) mit Auszeichnung der IHK als Prüfungsbester."
+        "After graduating from school, I started an apprenticeship as an IT-Specialist specialised in software development at NeoGeo New Media GmbH in Elmshorn, Germany. I finished the apprenticeship in winter semester of 2012/13 (shortened to 2.5 years) with a certification issued by the IHK for best results in that semester."
       ]
     },
 
     {
-      "title": "Schulabschluss: Allgemeine Hochschulreife",
-      "subtitle": "Abschluss 2010",
+      "title": "School: A level",
+      "subtitle": "Graduation 2010",
       "content": [
-        "Meine schulische Laufbahn endete 2010 mit dem Abitur (Abschlussnote 2,0) am Detlefsengymnasium in Glückstadt."
+        "I graduated from school with the German Abitur (equivalent of A levels, final grade 2.0) in 2010."
       ]
     }
   ],
-
+ 
   "skillsItems": [
     {
       "level": "Professional experience",
       "text": "The following list shows all technologies that I have used in my daily work for a long time and gained a deep understanding of them by learning about their inner workings or technical backgrounds.",
-      "keywords": ["C#", ".NET", "ASP.NET MVC", "Entity Framework", "LINQ", "SQL", "ASP.NET WebForms", "TypeScript", "Javascript", "Angular", "Angular Material", "AngularJS", "Bootstrap", "jQuery", "jQuery UI"]
+      "keywords": ["C#", ".NET", ".NET Core", "ASP.NET Core", "ASP.NET MVC", "Entity Framework", "LINQ", "SQL", "ASP.NET WebForms", "TypeScript", "Javascript", "Angular", "Angular Material", "AngularJS", "Bootstrap", "jQuery", "jQuery UI"]
     },
-    
+   
     {
       "level": "Non-professional experience",
-      "text": "The following list shows some technologies that I made myself more familiar with out of personal interest. Thus, I have more than just a basic level of understanding about them, but no expert level experience.",
-      "keywords": ["Android", "Java", "F#", "Chrome Extensions", "Node", "IoT"] 
+      "text": "The following list shows some technologies that I made myself more familiar with out of personal interest. Thus, I have more than just a basic level of understanding about them, but no expert level experience. I am currently digging into the language Q# as well as the basics of quantum computing in general.",
+      "keywords": ["Android", "Java", "Kotlin", "F#", "Chrome Extensions", "Node", "IoT"]
     }
   ],
   "notableReadingsTitle": "Favorite books",

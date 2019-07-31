@@ -3,7 +3,7 @@
   "career": "Karriere",
   "education": "Ausbildung",
   "skills": "Kenntnisse",
-
+ 
   "careerItems": [
     {
       "title": "Dataport, Anstalt öffentlichen Rechts",
@@ -18,7 +18,7 @@
         "Als besondere Fortbildungsmaßnahmen durfte ich 2017 die BASTA! in Mainz und 2018 die Developer Week in Nürnberg besuchen."
       ]
     },
-
+ 
     {
       "title": "NeoGeo New Media GmbH",
       "subtitle": "08.2010 - 05.2016",
@@ -29,11 +29,11 @@
         "Bei der NeoGeo New Media GmbH habe ich meine Ausbildung als Fachinformatiker (Anwendungsentwicklung) absolviert und im Anschluss drei Jahre weitere Erfahrungen gesammelt. Ich war an der Pflege und Weiterentwicklung einer umfangreichen Bestandsanwendung beteiligt, konnte aber auch beim Entstehen neuer Projekte mitwirken.",
         "Inhaltlich erhielt ich Einblicke in die Themen Energiewirtschaft, softwaregestütztes kollaboratives Arbeiten und Finanzmanagement mit Risikobewertung.",
         "Technisch konnte ich mich mit den Technologien der Webentwicklung vertraut machen, dazu zählen neben ASP.NET MVC mit AngularJS und Bootstrap auch diverse Frameworks und Bibliotheken wie jQuery + jQuery UI, Entity Framework, WCF und ASP.NET WebForms, sowie die Datenhaltung mit Microsofts SQL Server.",
-        "Zusätzlich konnte ich viele weitere Technologien für andere Problemstellungen an realen Problemstellungen ausprobieren, wie Cordova (ehemalig PhoneGap), Xamarin, Windows Services, WIX, Silverlight."
+        "Zusätzlich konnte ich viele weitere Technologien aus anderen Themenfeldern an realen Problemstellungen ausprobieren, wie Cordova (ehemalig PhoneGap), Xamarin, Windows Services, WIX, Silverlight."
       ]
     }
   ],
-
+ 
   "educationItems": [
     {
       "title": "Studium: B.Sc. Informatik",
@@ -51,7 +51,7 @@
             { "label": "Moderne Programmiertechniken und - methoden", "score": "1,0" }
           ]
         },
-
+ 
         {
           "title": "Ausstehende Aufgaben",
           "items": [
@@ -62,7 +62,7 @@
         }
       ]
     },
-    
+   
     {
       "title": "Ausbildung: Fachinformatiker - Anwendungsentwicklung",
       "subtitle": "Abschluss 2013",
@@ -70,7 +70,7 @@
         "Im Anschluss an die schulische Laufbahn habe ich eine Ausbildung als Fachinformatiker (Fachrichtung Anwendungsentwicklung) bei der NeoGeo New Media GmbH in Elmshorn begonnen. Diese beendete ich im Wintersemester 2012/13 (verkürzt auf 2,5 Jahre) mit Auszeichnung der IHK als Prüfungsbester."
       ]
     },
-
+ 
     {
       "title": "Schulabschluss: Allgemeine Hochschulreife",
       "subtitle": "Abschluss 2010",
@@ -79,18 +79,18 @@
       ]
     }
   ],
-
+ 
   "skillsItems": [
     {
       "level": "Professionelle Erfahrung",
       "text": "In dieser Kategorie sind alle Themen aufgelistet, mit denen ich sehr gut vertraut bin. Dazu zählen Technologien, die ich über lange Zeit hinweg in der regelmäßigen Arbeit praktisch angewandt habe und ebenfalls die theoretischen Hintergründe dazu beherrsche.",
-      "keywords": ["C#", ".NET", "ASP.NET MVC", "Entity Framework", "LINQ", "SQL", "ASP.NET WebForms", "TypeScript", "Javascript", "Angular", "Angular Material", "AngularJS", "Bootstrap", "jQuery", "jQuery UI"]
+      "keywords": ["C#", ".NET", ".NET Core", "ASP.NET Core", "ASP.NET MVC", "Entity Framework", "LINQ", "SQL", "ASP.NET WebForms", "TypeScript", "Javascript", "Angular", "Angular Material", "AngularJS", "Bootstrap", "jQuery", "jQuery UI"]
     },
-    
+   
     {
       "level": "Nicht-professionelle Erfahrung",
-      "text": "In dieser Kategorie sind Themen aufgelistet, mit denen ich mich aus persönlichem Antrieb näher beschäftigt habe und zumindest etwas mehr als Grundkenntnisse besitze.",
-      "keywords": ["Android", "Java", "F#", "Chrome Extensions", "Node", "IoT"] 
+      "text": "In dieser Kategorie sind Themen aufgelistet, mit denen ich mich aus persönlichem Antrieb näher auseinandergesetzt habe und zumindest etwas mehr als Grundkenntnisse besitze. Aktuell beschäftige ich mich mit der Sprache Q# und den Grundlagen zu Quanten-Computing im Allgemeinen.",
+      "keywords": ["Android", "Java", "Kotlin", "F#", "Chrome Extensions", "Node", "IoT"]
     }
   ],
   "notableReadingsTitle": "Bedeutendste Fachliteratur",

@@ -35,5 +35,8 @@ export class AboutMeResources implements Resources {
     }>;
 
     public readonly notableReadingsTitle: string;
-    public readonly notableReadings: string[];
+    public readonly notableReadings: Array<{
+        readonly title: string;
+        readonly author: string;
+    }>;
 }

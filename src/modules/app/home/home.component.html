@@ -9,14 +9,16 @@
               <p *ngFor="let line of resources.values.introduction.body">{{ line }}</p>
           </div>
         </mat-card-content>
-        <mat-card-actions class="centered">
+        <mat-card-actions class="centered home-card-actions">
           <!-- About Me -->
-          <a routerLink="/aboutme" mat-icon-button mat-raised-button color="primary"
-            [matTooltip]="resources.values.introduction.aboutMe"><mat-icon>person</mat-icon></a>
+          <a routerLink="/aboutme" mat-button mat-raised-button color="primary">
+            <mat-icon>person</mat-icon> {{ resources.values.introduction.aboutMe }}
+          </a>
 
           <!-- Mail contact -->
-          <a href="mailto:info@dennis-janiak.de" mat-icon-button mat-raised-button color="primary"
-            [matTooltip]="resources.values.introduction.contactMe"><mat-icon>mail</mat-icon></a>
+          <a href="mailto:info@dennis-janiak.de" mat-button mat-raised-button color="primary">
+            <mat-icon>mail</mat-icon> {{ resources.values.introduction.contactMe }}
+          </a>
         </mat-card-actions>
         <img mat-card-image src="assets/images/home.jpg" />
       </mat-card>
