@@ -11,6 +11,7 @@ import { SharedModule } from '../shared/shared.module';
 import { RESOURCES_LANGUAGES } from '../shared/resources/languagesInjectionToken';
 import { Language } from '../shared/resources/language';
 import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
 import { MatMenuModule } from '@angular/material/menu';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -33,6 +34,7 @@ const languages: Language[] = [
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
+    MatDividerModule,
     MatIconModule,
     MatMenuModule,
     MatToolbarModule,

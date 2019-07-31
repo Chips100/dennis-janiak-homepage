@@ -4,8 +4,7 @@ import { ResourcesHandle } from "../../shared/resources/resources-service/resour
 import { AppResources } from "../app.resources";
 
 @Component({
-    templateUrl: './home.component.html',
-    styleUrls: ['./home.component.css']
+    templateUrl: './home.component.html'
 })
 export class HomeComponent {
     public constructor(resourcesService: ResourcesService) {

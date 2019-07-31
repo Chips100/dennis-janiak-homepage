@@ -17,6 +17,23 @@
                 [routerLink]="link.link" routerLinkActive="link-active">
                 {{ link.label }}
             </a>
+            <mat-divider></mat-divider>
+            
+            <!-- Github profile -->
+            <a href="https://github.com/Chips100" target="_blank" class="third-party-link" mat-menu-item>
+              <img src="assets/images/github-mark-32.png"/>
+              <span>GitHub</span>
+            </a>
+            <!-- StackOverflow profile -->
+            <a href="https://stackoverflow.com/users/927511/dennis" target="_blank" class="third-party-link" mat-menu-item>
+              <img src="assets/images/stackoverflow.png"/>
+              StackOverflow
+            </a>
+            <!-- Mail contact -->
+            <a href="mailto:info@dennis-janiak.de" mat-menu-item>
+              <mat-icon>mail</mat-icon>
+              E-Mail
+            </a>
         </mat-menu>
 
         <!-- Icon allows opening of the menu. -->
