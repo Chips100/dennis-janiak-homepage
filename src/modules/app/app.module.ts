@@ -17,6 +17,8 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ResourcesService } from '../shared/resources/resources-service/resources.service';
 import { NavbarComponent } from './navbar/navbar.component';
+import { MiniProfileCardComponent } from './mini-profile-card/mini-profile-card.component';
+import { MatChipsModule } from '@angular/material/chips';
 
 const languages: Language[] = [
   { key: "de", displayName: "Deutsch" },
@@ -27,6 +29,7 @@ const languages: Language[] = [
   declarations: [
     AppComponent,
     HomeComponent,
+    MiniProfileCardComponent,
     NavbarComponent
   ],
   imports: [
@@ -34,6 +37,7 @@ const languages: Language[] = [
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
+    MatChipsModule,
     MatDividerModule,
     MatIconModule,
     MatMenuModule,

@@ -1,0 +1,9 @@
+.mini-profile-card-container {
+  /* Landing page should just contain the centered mini-profile-card,
+     so center it in a full-height container (minus 64px navbar). */
+  height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+}

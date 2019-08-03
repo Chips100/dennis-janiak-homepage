@@ -1,3 +1,13 @@
+/* Sticky toolbar, taken from:
+ * https://stackoverflow.com/questions/47145113/angular-material-2-how-to-lock-mat-toolbar-and-mat-tabs-to-the-top
+ */
+.sticky-toolbar {
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
 .fill-remaining-space {
   flex: 1 1 auto;
 }

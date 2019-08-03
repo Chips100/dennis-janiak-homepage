@@ -1,0 +1,21 @@
+.profile-card {
+  max-width: 20em;
+}
+
+.profile-picture-container {
+  text-align: center;
+}
+.profile-picture-container > img {
+  max-height: 15em;
+}
+
+.description {
+  text-align: center;
+}
+
+.keywords {
+  margin-top: 1em;
+}
+::ng-deep .keywords .mat-chip-list-wrapper {
+  justify-content: center;
+}

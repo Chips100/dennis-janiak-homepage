@@ -1,4 +1,11 @@
-<dj-resources-content [resourcesHandle]="resources">
+
+<div class="mini-profile-card-container">
+  <dj-mini-profile-card></dj-mini-profile-card>
+</div>
+
+
+
+<dj-resources-content [resourcesHandle]="resources" *ngIf="false">
   <ng-template>
       <mat-card>
         <mat-card-title>
@@ -10,7 +17,7 @@
           </div>
         </mat-card-content>
         <mat-card-actions>
-          <div class="centered home-card-actions">
+          <div class="centered home-card-actions" style="height:10000px;">
             <!-- About Me -->
             <a routerLink="/aboutme" mat-button mat-raised-button color="primary">
               <mat-icon>person</mat-icon> {{ resources.values.introduction.aboutMe }}
