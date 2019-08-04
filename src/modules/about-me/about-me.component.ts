@@ -4,6 +4,7 @@ import { ResourcesHandle } from "../shared/resources/resources-service/resources
 import { AboutMeResources } from "./about-me.resources";
 
 @Component({
+    selector: 'dj-about-me',
     templateUrl: './about-me.component.html',
     styleUrls: ['./about-me.component.css']
 })

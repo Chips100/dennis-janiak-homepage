@@ -19,3 +19,20 @@
 ::ng-deep .keywords .mat-chip-list-wrapper {
   justify-content: center;
 }
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 0;
+}
+.profile-links > div {
+  flex-grow: 1;
+  text-align: center;
+  max-width: 64px;
+}
+.third-party-link img {
+  height: 32px;
+}
+.mail-icon {
+  font-size: 2em;
+}

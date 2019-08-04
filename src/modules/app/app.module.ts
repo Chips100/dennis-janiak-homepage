@@ -19,6 +19,7 @@ import { ResourcesService } from '../shared/resources/resources-service/resource
 import { NavbarComponent } from './navbar/navbar.component';
 import { MiniProfileCardComponent } from './mini-profile-card/mini-profile-card.component';
 import { MatChipsModule } from '@angular/material/chips';
+import { AboutMeModule } from '../about-me/about-me.module';
 
 const languages: Language[] = [
   { key: "de", displayName: "Deutsch" },
@@ -33,6 +34,7 @@ const languages: Language[] = [
     NavbarComponent
   ],
   imports: [
+    AboutMeModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,

@@ -28,6 +28,9 @@ import { EducationComponent } from './education/education.component';
       { path: '', component: AboutMeComponent }
     ]),
     SharedModule
+  ],
+  exports: [
+    AboutMeComponent
   ]
 })
 export class AboutMeModule { }
