@@ -6,15 +6,18 @@ import { Resources } from "../shared/resources/resources";
 export class AppResources implements Resources {
     public readonly identifier: string = "app";
 
-    public readonly introduction: {
-        title: string,
-        body: string[],
-        aboutMe: string,
-        contactMe: string
+    public readonly profile: {
+        readonly name: string;
+        readonly title: string;
+        readonly location: string;
+        readonly keywords: string[];
     };
 
-    public readonly navbar: {
-        label: string,
-        links: Array<{ label: string, link: string }>
-    }
+    public readonly thirdPartyLinks: Array<{
+        readonly iconImage: string;
+        readonly name: string;
+        readonly url: string;
+    }>;
+    
+    public readonly emailAddress: string;
 }

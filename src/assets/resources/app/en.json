@@ -1,18 +1,13 @@
 {
-    "introduction": {
-        "title": "Welcome!",
-        "body": [
-            "My name is Dennis Janiak and I am a software developer from Northern Germany.",
-            "On this page I want to introduce myself and share my experiences in the world of software development so far, as well as present some projects I did in my spare time."
-        ],
-        "aboutMe": "Learn more about me",
-        "contactMe": "Contact me"
+    "profile": {
+        "name": "Dennis Janiak",
+        "title": "Developer",
+        "location": "Hamburg, Germany",
+        "keywords": ["C#", ".NET", "ASP.NET", ".NET Core", "Angular", "TypeScript", "Bootstrap", "Angular Material"]
     },
-    "navbar": {
-        "label": "Dennis Janiak",
-        "links": [
-            { "label": "Home", "link": "/home" },
-            { "label": "About me", "link": "/aboutme" }
-        ]
-    }
+    "thirdPartyLinks": [
+        { "iconImage": "github-mark-light-64", "name": "GitHub", "url": "https://github.com/Chips100" },
+        { "iconImage": "stackoverflow", "name": "stackoverflow", "url": "https://stackoverflow.com/users/927511/dennis" }
+    ],
+    "emailAddress": "info@dennis-janiak.de"
 }

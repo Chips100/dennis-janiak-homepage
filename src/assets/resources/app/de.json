@@ -1,18 +1,13 @@
 {
-    "introduction": {
-        "title": "Herzlich Willkommen!",
-        "body": [
-            "Mein Name ist Dennis Janiak und ich bin Softwareentwickler aus Norddeutschland.",
-            "Auf dieser Seite möchte ich mich, meine bisherigen Erfahrungen in der Softwareentwicklung und meine Freizeitprojekte vorstellen."
-        ],
-        "aboutMe": "Mehr über mich",
-        "contactMe": "Kontakt"
+    "profile": {
+        "name": "Dennis Janiak",
+        "title": "Softwareentwickler",
+        "location": "Hamburg, Deutschland",
+        "keywords": ["C#", ".NET", "ASP.NET", ".NET Core", "Angular", "TypeScript", "Bootstrap", "Angular Material"]
     },
-    "navbar": {
-        "label": "Dennis Janiak",
-        "links": [
-            { "label": "Start", "link": "/home" },
-            { "label": "Über mich", "link": "/aboutme" }
-        ]
-    }
+    "thirdPartyLinks": [
+        { "iconImage": "github-mark-light-64", "name": "GitHub", "url": "https://github.com/Chips100" },
+        { "iconImage": "stackoverflow", "name": "stackoverflow", "url": "https://stackoverflow.com/users/927511/dennis" }
+    ],
+    "emailAddress": "info@dennis-janiak.de"
 }

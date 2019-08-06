@@ -2,7 +2,7 @@
     <ng-template>
         <mat-card style="margin-bottom: 1em;">
             <mat-card-title>
-                <span style="font-size: 1.2em;">Ausbildung</span>
+                <span style="font-size: 1.2em;">{{ resources.values.education }}</span>
             </mat-card-title>
             <mat-card-content class="card-section-divider"><mat-divider></mat-divider></mat-card-content>
             <ng-container *ngFor="let item of resources.values.educationItems; let last = last" style="margin-bottom:1em;">
