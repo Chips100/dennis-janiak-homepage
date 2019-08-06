@@ -6,30 +6,6 @@
     </div>
     
     <dj-about-me></dj-about-me>
-
-    <dj-resources-content [resourcesHandle]="resources">
-      <ng-template>
-          <mat-card>
-            <mat-card-title>
-              {{ resources.values.introduction.title }}
-            </mat-card-title>
-            <mat-card-content>
-              <div>
-                  <p *ngFor="let line of resources.values.introduction.body">{{ line }}</p>
-              </div>
-            </mat-card-content>
-            <mat-card-actions>
-              <div class="centered home-card-actions" style="height:10000px;">
-                <!-- About Me -->
-                <a routerLink="/aboutme" mat-button mat-raised-button color="primary">
-                  <mat-icon>person</mat-icon> {{ resources.values.introduction.aboutMe }}
-                </a>
-              </div>
-            </mat-card-actions>
-            <img mat-card-image src="assets/images/home.jpg" />
-          </mat-card>
-      </ng-template>
-    </dj-resources-content>
   </div>
 </div>
 

@@ -4,7 +4,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatListModule } from '@angular/material/list';
 import { MatTabsModule } from '@angular/material/tabs';
-import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { AboutMeComponent } from './about-me.component';
 import { CareerComponent } from './career/career.component';
@@ -24,9 +23,6 @@ import { EducationComponent } from './education/education.component';
     MatChipsModule,
     MatListModule,
     MatTabsModule,
-    RouterModule.forChild([
-      { path: '', component: AboutMeComponent }
-    ]),
     SharedModule
   ],
   exports: [

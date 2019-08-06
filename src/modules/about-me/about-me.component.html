@@ -1,28 +1,9 @@
 <dj-resources-content [resourcesHandle]="resources">
   <ng-template>
     <div class="mat-typography">
-      <mat-card>
-        <mat-card-title>{{ resources.values.aboutMe }}</mat-card-title>
-        <mat-card-content>
-          <mat-tab-group>
-            <mat-tab [label]="resources.values.career">
-              <div class="tab-content">
-                <dj-career></dj-career>
-              </div>
-            </mat-tab>
-            <mat-tab [label]="resources.values.education">
-              <div class="tab-content">
-                <dj-education></dj-education>
-              </div>
-            </mat-tab>
-            <mat-tab [label]="resources.values.skills">
-              <div class="tab-content">
-                <dj-skills></dj-skills>
-              </div>
-            </mat-tab>
-          </mat-tab-group>
-        </mat-card-content>
-      </mat-card>
+      <dj-skills></dj-skills>
+      <dj-career></dj-career>
+      <dj-education></dj-education>
     </div>
   </ng-template>
 </dj-resources-content>

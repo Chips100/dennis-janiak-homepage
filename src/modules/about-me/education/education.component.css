@@ -14,3 +14,7 @@
 .achievement .right {
     text-align: right;
 }
+
+.card-section-divider {
+    height: 0.6em;
+}

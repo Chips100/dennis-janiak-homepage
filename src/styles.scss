@@ -20,3 +20,19 @@ a.unstyled {
     text-decoration: none;
     color: inherit;
 }
+
+.print-only {
+    display: none !important;
+}
+
+@media print {
+    * {
+        color: #111111 !important;
+    }
+    .print-hidden {
+        display: none !important;   
+    }
+    .print-only {
+        display: inherit !important;
+    }
+}
