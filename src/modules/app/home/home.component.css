@@ -1,23 +1,5 @@
-.home-body {
-  background: rgb(93,93,93);
-  background: linear-gradient(345deg, rgba(93,93,93,1) 0%, rgba(5,5,5,1) 100%);
-  height: calc(100vh - 64px);
-  overflow: auto;
-}
-@media (max-width:599px){
-  .home-body {
-    height: calc(100vh - 56px);
-  }
-}
-@media print {
-  .home-body {
-    height: inherit !important;
-  }
-}
-
 .content-container {
   max-width: 80em;
-  height: 100%;
   margin: 0 auto;
   padding: 0 1em;
 }
@@ -25,8 +7,18 @@
 .mini-profile-card-container {
   /* Landing page should just contain the centered mini-profile-card,
      so center it in a full-height container (minus 64px navbar). */
-  height: 100%;
+  min-height: calc(100vh - 64px);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width:599px){
+  .mini-profile-card-container {
+    min-height: calc(100vh - 56px);
+  }
+}
+@media print {
+  .mini-profile-card-container {
+    min-height: inherit !important;
+  }
 }

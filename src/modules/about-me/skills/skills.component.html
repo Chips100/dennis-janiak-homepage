@@ -1,7 +1,7 @@
 <dj-resources-content [resourcesHandle]="resources">
   <ng-template>
     <div>
-        <mat-card *ngFor="let item of resources.values.skillsItems" class="mat-elevation-z4" style="margin-bottom:1em;">
+        <mat-card *ngFor="let item of resources.values.skillsItems" class="mat-elevation-z4 print-nobreak" style="margin-bottom:1em;">
           <mat-card-title>
             {{ item.level }}
           </mat-card-title>
@@ -17,7 +17,7 @@
           </mat-card-content>
         </mat-card>
 
-        <mat-card class="mat-elevation-z4" style="margin-bottom:1em;">
+        <mat-card class="mat-elevation-z4 print-nobreak" style="margin-bottom:1em;">
           <mat-card-title>
             {{ resources.values.notableReadingsTitle }}
           </mat-card-title>

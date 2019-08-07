@@ -21,6 +21,11 @@ a.unstyled {
     color: inherit;
 }
 
+.print-nobreak {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
 .print-only {
     display: none !important;
 }
