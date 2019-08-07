@@ -21,4 +21,8 @@
   .mini-profile-card-container {
     min-height: inherit !important;
   }
+  .content-container {
+    padding: 0 0.1em !important;
+    max-width: none !important;
+  }
 }

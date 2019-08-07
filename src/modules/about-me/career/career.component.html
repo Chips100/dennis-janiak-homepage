@@ -1,30 +1,30 @@
 <dj-resources-content [resourcesHandle]="resources">
   <ng-template>
-    <mat-card style="margin-bottom: 1em;">
+    <mat-card style="margin-bottom: 1em;" class="print-nobreak">
       <mat-card-title>
-        <span style="font-size: 1.2em;">{{ resources.values.career }}</span>
+        <div class="top-title">{{ resources.values.career }}</div>
       </mat-card-title>
-      <mat-card-content class="card-section-divider"><mat-divider></mat-divider></mat-card-content>
-      <ng-container *ngFor="let item of resources.values.careerItems; let last = last">
-        <mat-card-title>
-          {{ item.title }}
-        </mat-card-title>
-
-        <mat-card-subtitle *ngIf="item.subtitle">
-          {{ item.subtitle }}
-        </mat-card-subtitle>
-        
-        <mat-card-content>
-          <mat-chip-list>
-            <mat-chip *ngFor="let keyword of item.keywords">{{ keyword }}</mat-chip>
-          </mat-chip-list>
-        </mat-card-content>
-
-        <mat-card-content>
-          <p *ngFor="let line of item.content">{{ line }}</p>
-        </mat-card-content>
-        <mat-card-content *ngIf="!last" class="card-section-divider"><mat-divider></mat-divider></mat-card-content>
-      </ng-container>  
+      <mat-card-content>
+        <mat-card *ngFor="let item of resources.values.careerItems" class="mat-elevation-z8 career-item-card print-nobreak">
+          <mat-card-title>
+            {{ item.title }}
+          </mat-card-title>
+  
+          <mat-card-subtitle *ngIf="item.subtitle">
+            {{ item.subtitle }}
+          </mat-card-subtitle>
+          
+          <mat-card-content>
+            <mat-chip-list class="print-chips-dense">
+              <mat-chip *ngFor="let keyword of item.keywords">{{ keyword }}</mat-chip>
+            </mat-chip-list>
+          </mat-card-content>
+  
+          <mat-card-content>
+            <p *ngFor="let line of item.content">{{ line }}</p>
+          </mat-card-content>
+        </mat-card>
+      </mat-card-content>
     </mat-card>
   </ng-template>
 </dj-resources-content>

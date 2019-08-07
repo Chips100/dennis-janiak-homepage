@@ -1,3 +1,8 @@
-.card-section-divider {
-  height: 0.6em;
+.top-title {
+  font-size: 1.2em; 
+  margin-bottom:1em;
+}
+
+.career-item-card {
+  margin: 0.5em 0;
 }

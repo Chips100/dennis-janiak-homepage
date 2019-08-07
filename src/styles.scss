@@ -40,4 +40,14 @@ a.unstyled {
     .print-only {
         display: inherit !important;
     }
+
+    .print-chips-dense {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .print-chips-dense .mat-chip {
+        margin: 0 !important;
+        padding: 0.2em 0.5em !important;
+        font-size: 1em !important;
+    }
 }
