@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="profileTitle" datatype="html">
+        <source>Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/mini-profile-card/mini-profile-card.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Job title in the profile summary</note>
+        <note priority="1" from="meaning">profileTitle</note>
+      </trans-unit>
+      <trans-unit id="profileLocation" datatype="html">
+        <source>Hamburg, Germany</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/mini-profile-card/mini-profile-card.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Location in the profile summary</note>
+        <note priority="1" from="meaning">profileLocation</note>
+      </trans-unit>
+      <trans-unit id="careerHeader" datatype="html">
+        <source>
+      Career
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Header for the career section</note>
+        <note priority="1" from="meaning">careerHeader</note>
+      </trans-unit>
+      <trans-unit id="careerDataportHeader" datatype="html">
+        <source>
+        Dataport, AöR
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Header for the career at Dataport</note>
+        <note priority="1" from="meaning">dataportHeader</note>
+      </trans-unit>
+      <trans-unit id="careerDataportDate" datatype="html">
+        <source>
+        since June 2016
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Start and end date of the career at Dataport</note>
+        <note priority="1" from="meaning">dataportDate</note>
+      </trans-unit>
+      <trans-unit id="careerDataportDescription1" datatype="html">
+        <source>
+          Working at Dataport, I especially improved on architectural aspects of software development 
+          and applying SOLID principles in practice. By contributing to an in-house framework I learned 
+          about carefully managing dependencies and using semantic versioning. I was involved in setting up 
+          CI and CD with TFS in multiple projects. I learned a lot about focused development of solutions
+           by applying principles like SCRUM, Domain Driven Design and Test Driven Development.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">First block of the description of the job at Dataport</note>
+        <note priority="1" from="meaning">dataportDescription1</note>
+      </trans-unit>
+      <trans-unit id="careerDataportDescription2" datatype="html">
+        <source>
+          The projects I worked on dealt with several problems from the domain of public administration and government, 
+          like management of areas, administration of schools and support of public projects.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">Second block of the description of the job at Dataport</note>
+        <note priority="1" from="meaning">dataportDescription2</note>
+      </trans-unit>
+      <trans-unit id="careerDataportDescription3" datatype="html">
+        <source>
+          I contributed to solutions developed with Angular + Angular Material in TypeScript, 
+          which includes working with npm, jasmine, karma and also jest. By using MongoDB in a project 
+          I was able to gain experience with NoSQL in a real-world project. In addition, I got familiar
+          with several other frameworks and libraries, like WPF, AutoMapper, Ninject and Devexpress, 
+          as well as daily use of Resharper and version control with git.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">Third block of the description of the job at Dataport</note>
+        <note priority="1" from="meaning">dataportDescription3</note>
+      </trans-unit>
+      <trans-unit id="careerDataportDescription4" datatype="html">
+        <source>
+          For further education, I took the chance to attend the BASTA! conference in Mainz in 2017 and 2019
+          as well as the Developer Week in Nuremberg in 2018.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">Fourth block of the description of the job at Dataport</note>
+        <note priority="1" from="meaning">dataportDescription4</note>
+      </trans-unit>
+      <trans-unit id="careerNeogeoHeader" datatype="html">
+        <source>
+        NeoGeo New Media GmbH
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description">Header for the career at NeoGeo</note>
+        <note priority="1" from="meaning">neogeoHeader</note>
+      </trans-unit>
+      <trans-unit id="careerNeogeoDate" datatype="html">
+        <source>
+        August 2010 - May 2016
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <note priority="1" from="description">Start and end date of the career at NeoGeo</note>
+        <note priority="1" from="meaning">neogeoDate</note>
+      </trans-unit>
+      <trans-unit id="careerNeogeoDescription1" datatype="html">
+        <source>
+          I have started and concluded my apprenticeship as a developer (&apos;Fachinformatiker - Anwendungsentwicklung&apos;) 
+          at NeoGeo and continued to work there for three more years to get more experience. I maintained and extended 
+          a rich web-based application and also contributed to buildung new projects from scratch.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="description">First block of the description of the job at NeoGeo</note>
+        <note priority="1" from="meaning">neogeoDescription1</note>
+      </trans-unit>
+      <trans-unit id="careerNeogeoDescription2" datatype="html">
+        <source>
+          The projects I worked on dealt with energy management, software-supported team collaboration 
+          and financial management with risk analysis.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <note priority="1" from="description">Second block of the description of the job at NeoGeo</note>
+        <note priority="1" from="meaning">neogeoDescription2</note>
+      </trans-unit>
+      <trans-unit id="careerNeogeoDescription3" datatype="html">
+        <source>
+          I contributed to web-based solutions developed with ASP.NET MVC + AngularJS and Bootstrap.
+          I also worked with many other frameworks and libraries, like jQuery + jQuery UI, Entity Framework, 
+          WCF and ASP.NET WebForms, as well as Microsoft SQL Server.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <note priority="1" from="description">Third block of the description of the job at NeoGeo</note>
+        <note priority="1" from="meaning">neogeoDescription3</note>
+      </trans-unit>
+      <trans-unit id="careerNeogeoDescription4" datatype="html">
+        <source>
+          In addition, I was able to familiarize with many tools for different problems in the context 
+          of real-world applications, like Cordova (formerly known as PhoneGap), Xamarin, Windows Services, WIX and Silverlight.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/career/career.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <note priority="1" from="description">Fourth block of the description of the job at NeoGeo</note>
+        <note priority="1" from="meaning">neogeoDescription4</note>
+      </trans-unit>
+      <trans-unit id="educationHeader" datatype="html">
+        <source>Education</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Header for the education section</note>
+        <note priority="1" from="meaning">educationHeader</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorHeader" datatype="html">
+        <source>
+                B.Sc. Computer Science
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Header for the Bachelor of Science section in education</note>
+        <note priority="1" from="meaning">bachelorHeader</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorDate" datatype="html">
+        <source>
+                Graduation 2020 (planned)
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">Graduation date for the Bachelor of Science</note>
+        <note priority="1" from="meaning">bachelorDate</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorMotivation" datatype="html">
+        <source>
+                    Shortly after concluding my apprenticeship I decided to start studying computer science 
+                    part time in addition to my job. Because of my interest in the theoretical backgrounds 
+                    of my daily work as well as their mathematical foundations, I decided to enrol in the 
+                    course of computer science (B.Sc.) at the FernUniversität in Hagen, which allows studying from home.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">Description of the motivation to start studying for the Bachelor of Science</note>
+        <note priority="1" from="meaning">bachelorMotivation</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorModulesHeader" datatype="html">
+        <source>
+                    Modules
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">Header for the modules taken as part of the Bachelor degree</note>
+        <note priority="1" from="meaning">bachelorModulesHeader</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorModuleSoftwareEngineering" datatype="html">
+        <source>
+                                Software Engineering I
+                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">Name of the Software Engineering module of the Bachelor degree</note>
+        <note priority="1" from="meaning">moduleSoftwareEngineering</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorModuleSecurityInternet" datatype="html">
+        <source>
+                                Security on the internet
+                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">Name of the Security on the internet module of the Bachelor degree</note>
+        <note priority="1" from="meaning">moduleSecurityInternet</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorModuleCompilers" datatype="html">
+        <source>
+                                Compilers
+                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">Name of the Compilers module of the Bachelor degree</note>
+        <note priority="1" from="meaning">moduleCompilers</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorModuleProgramming" datatype="html">
+        <source>
+                                Modern programming techniques and methods
+                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <note priority="1" from="description">Name of the programming module of the Bachelor degree</note>
+        <note priority="1" from="meaning">moduleProgramming</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorTodoHeader" datatype="html">
+        <source>
+                    To-Do
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <note priority="1" from="description">Header for the pending tasks of the Bachelor degree</note>
+        <note priority="1" from="meaning">bachelorTodoHeader</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorTodoAcknowledgement" datatype="html">
+        <source>
+                        Acknowledgment of experience from work
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <note priority="1" from="description">Name of the task to get job experience acknowledged for the Bachelor degree</note>
+        <note priority="1" from="meaning">bachelorTodoAcknowledgement</note>
+      </trans-unit>
+      <trans-unit id="educationBachelorTodoThesis" datatype="html">
+        <source>
+                        Bachelor thesis
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <note priority="1" from="description">Name of the task to create the final thesis for the Bachelor degree</note>
+        <note priority="1" from="meaning">bachelorTodoThesis</note>
+      </trans-unit>
+      <trans-unit id="educationApprenticeshipHeader" datatype="html">
+        <source>
+                Apprenticeship: IT-Specialist specialised in software development
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <note priority="1" from="description">Header for the apprenticeship section in education</note>
+        <note priority="1" from="meaning">apprenticeshipHeader</note>
+      </trans-unit>
+      <trans-unit id="educationApprenticeshipDate" datatype="html">
+        <source>
+                Graduation 2013
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <note priority="1" from="description">Graduation date for the apprenticeship</note>
+        <note priority="1" from="meaning">apprenticeshipDate</note>
+      </trans-unit>
+      <trans-unit id="educationApprenticeshipDescription" datatype="html">
+        <source>
+                    After graduating from school, I started an apprenticeship as an IT-Specialist 
+                    specialised in software development at NeoGeo New Media GmbH in Elmshorn, Germany.
+                    I finished the apprenticeship in winter semester of 2012/13 (shortened to 2.5 years) 
+                    with a certification issued by the IHK for best results in that semester.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <note priority="1" from="description">Description of the content and results of the apprenticeship</note>
+        <note priority="1" from="meaning">apprenticeshipDescription</note>
+      </trans-unit>
+      <trans-unit id="educationSchoolHeader" datatype="html">
+        <source>
+                School: A level
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <note priority="1" from="description">Header for the school section in education</note>
+        <note priority="1" from="meaning">schoolHeader</note>
+      </trans-unit>
+      <trans-unit id="educationSchoolDate" datatype="html">
+        <source>
+                Graduation 2010
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+        <note priority="1" from="description">Graduation date for school</note>
+        <note priority="1" from="meaning">schoolDate</note>
+      </trans-unit>
+      <trans-unit id="educationSchoolDescription" datatype="html">
+        <source>
+                    I graduated from school with the German Abitur (equivalent of A levels, final grade 2.0) in 2010.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+        <note priority="1" from="description">Description of the education in school and results</note>
+        <note priority="1" from="meaning">schoolDescription</note>
+      </trans-unit>
+      <trans-unit id="skillsHeaderProfessional" datatype="html">
+        <source>
+      Professional experience
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/skills/skills.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Header for skills on a professional level</note>
+        <note priority="1" from="meaning">professionalHeader</note>
+      </trans-unit>
+      <trans-unit id="skillsDescriptionProfessional" datatype="html">
+        <source>
+      <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>The following list shows all technologies that I have used in my daily work for a long time and gained a deep understanding of them by learning about their inner workings or technical backgrounds.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/skills/skills.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Description of understanding of a professional level</note>
+        <note priority="1" from="meaning">professionalDescription</note>
+      </trans-unit>
+      <trans-unit id="skillsHeaderNonProfessional" datatype="html">
+        <source>
+      Non-professional experience
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/skills/skills.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">Header for skills on a non-professional level</note>
+        <note priority="1" from="meaning">nonProfessionalHeader</note>
+      </trans-unit>
+      <trans-unit id="skillsDescriptionNonProfessional" datatype="html">
+        <source>
+      <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>The following list shows some technologies that I made myself more familiar with out of personal interest. Thus, I have more than just a basic level of understanding about them, but no expert level experience. I am currently digging into the language Q# as well as the basics of quantum computing in general.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/skills/skills.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">Description of understanding of a non-professional level</note>
+        <note priority="1" from="meaning">nonProfessionalDescription</note>
+      </trans-unit>
+      <trans-unit id="skillsHeaderNotableReadings" datatype="html">
+        <source>
+      Favorite books
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/skills/skills.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">Header for notable readings supporting some skills</note>
+        <note priority="1" from="meaning">notableReadingsHeader</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

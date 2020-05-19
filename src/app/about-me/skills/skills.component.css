@@ -1,0 +1,11 @@
+.reading {
+    display: flex;
+    width: 100%;
+}
+.reading .separator {
+    min-width: 2em;
+    flex: 1 1 auto;
+}
+.reading .right {
+    text-align: right;
+}

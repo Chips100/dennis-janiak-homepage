@@ -1,0 +1,49 @@
+<div>
+  <!-- Professional Skills. -->
+  <mat-card class="mat-elevation-z4 print-nobreak" style="margin-bottom:1em;">
+    <mat-card-title i18n="professionalHeader|Header for skills on a professional level@@skillsHeaderProfessional">
+      Professional experience
+    </mat-card-title>
+    <mat-card-content i18n="professionalDescription|Description of understanding of a professional level@@skillsDescriptionProfessional">
+      <p>The following list shows all technologies that I have used in my daily work for a long time and gained a deep understanding of them by learning about their inner workings or technical backgrounds.</p>
+    </mat-card-content>
+    <mat-card-content>
+      <mat-chip-list>
+        <mat-chip *ngFor="let keyword of skills.professional">{{ keyword }}</mat-chip>
+      </mat-chip-list>
+    </mat-card-content>
+  </mat-card>
+
+  <!-- Non-professional Skills. -->
+  <mat-card class="mat-elevation-z4 print-nobreak" style="margin-bottom:1em;">
+    <mat-card-title i18n="nonProfessionalHeader|Header for skills on a non-professional level@@skillsHeaderNonProfessional">
+      Non-professional experience
+    </mat-card-title>
+    <mat-card-content i18n="nonProfessionalDescription|Description of understanding of a non-professional level@@skillsDescriptionNonProfessional">
+      <p>The following list shows some technologies that I made myself more familiar with out of personal interest. Thus, I have more than just a basic level of understanding about them, but no expert level experience. I am currently digging into the language Q# as well as the basics of quantum computing in general.</p>
+    </mat-card-content>
+    <mat-card-content>
+      <mat-chip-list>
+        <mat-chip *ngFor="let keyword of skills.nonProfessional">{{ keyword }}</mat-chip>
+      </mat-chip-list>
+    </mat-card-content>
+  </mat-card>
+
+  <!-- Notable readings -->
+  <mat-card class="mat-elevation-z4 print-hidden" style="margin-bottom:1em;">
+    <mat-card-title i18n="notableReadingsHeader|Header for notable readings supporting some skills@@skillsHeaderNotableReadings">
+      Favorite books
+    </mat-card-title>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item *ngFor="let reading of skills.notableReadings">
+          <div class="reading">
+            <span>{{ reading.title }}</span>
+            <span class="separator"></span>
+            <span class="right">{{ reading.author }}</span>
+          </div>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+</div>

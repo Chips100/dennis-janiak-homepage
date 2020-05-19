@@ -1,0 +1,82 @@
+<mat-card style="margin-bottom: 1em;" class="print-nobreak">
+  <mat-card-title>
+    <div class="top-title" i18n="careerHeader|Header for the career section@@careerHeader">
+      Career
+    </div>
+  </mat-card-title>
+  <mat-card-content>
+    <!-- Job at Dataport -->
+    <mat-card class="mat-elevation-z8 career-item-card print-nobreak">
+      <mat-card-title i18n="dataportHeader|Header for the career at Dataport@@careerDataportHeader">
+        Dataport, AöR
+      </mat-card-title>
+      <mat-card-subtitle i18n="dataportDate|Start and end date of the career at Dataport@@careerDataportDate">
+        since June 2016
+      </mat-card-subtitle>
+      <mat-card-content>
+        <mat-chip-list class="print-chips-dense">
+          <mat-chip *ngFor="let keyword of skills.jobs.dataport">{{ keyword }}</mat-chip>
+        </mat-chip-list>
+      </mat-card-content>
+      <mat-card-content>
+        <p i18n="dataportDescription1|First block of the description of the job at Dataport@@careerDataportDescription1">
+          Working at Dataport, I especially improved on architectural aspects of software development 
+          and applying SOLID principles in practice. By contributing to an in-house framework I learned 
+          about carefully managing dependencies and using semantic versioning. I was involved in setting up 
+          CI and CD with TFS in multiple projects. I learned a lot about focused development of solutions
+           by applying principles like SCRUM, Domain Driven Design and Test Driven Development.
+        </p>
+        <p i18n="dataportDescription2|Second block of the description of the job at Dataport@@careerDataportDescription2">
+          The projects I worked on dealt with several problems from the domain of public administration and government, 
+          like management of areas, administration of schools and support of public projects.
+        </p>
+        <p i18n="dataportDescription3|Third block of the description of the job at Dataport@@careerDataportDescription3">
+          I contributed to solutions developed with Angular + Angular Material in TypeScript, 
+          which includes working with npm, jasmine, karma and also jest. By using MongoDB in a project 
+          I was able to gain experience with NoSQL in a real-world project. In addition, I got familiar
+          with several other frameworks and libraries, like WPF, AutoMapper, Ninject and Devexpress, 
+          as well as daily use of Resharper and version control with git.
+        </p>
+        <p i18n="dataportDescription4|Fourth block of the description of the job at Dataport@@careerDataportDescription4">
+          For further education, I took the chance to attend the BASTA! conference in Mainz in 2017 and 2019
+          as well as the Developer Week in Nuremberg in 2018.
+        </p>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- Job at NeoGeo -->
+    <mat-card class="mat-elevation-z8 career-item-card print-nobreak">
+      <mat-card-title i18n="neogeoHeader|Header for the career at NeoGeo@@careerNeogeoHeader">
+        NeoGeo New Media GmbH
+      </mat-card-title>
+      <mat-card-subtitle i18n="neogeoDate|Start and end date of the career at NeoGeo@@careerNeogeoDate">
+        August 2010 - May 2016
+      </mat-card-subtitle>
+      <mat-card-content>
+        <mat-chip-list class="print-chips-dense">
+          <mat-chip *ngFor="let keyword of skills.jobs.neogeo">{{ keyword }}</mat-chip>
+        </mat-chip-list>
+      </mat-card-content>
+      <mat-card-content>
+        <p i18n="neogeoDescription1|First block of the description of the job at NeoGeo@@careerNeogeoDescription1">
+          I have started and concluded my apprenticeship as a developer ('Fachinformatiker - Anwendungsentwicklung') 
+          at NeoGeo and continued to work there for three more years to get more experience. I maintained and extended 
+          a rich web-based application and also contributed to buildung new projects from scratch.
+        </p>
+        <p i18n="neogeoDescription2|Second block of the description of the job at NeoGeo@@careerNeogeoDescription2">
+          The projects I worked on dealt with energy management, software-supported team collaboration 
+          and financial management with risk analysis.
+        </p>
+        <p i18n="neogeoDescription3|Third block of the description of the job at NeoGeo@@careerNeogeoDescription3">
+          I contributed to web-based solutions developed with ASP.NET MVC + AngularJS and Bootstrap.
+          I also worked with many other frameworks and libraries, like jQuery + jQuery UI, Entity Framework, 
+          WCF and ASP.NET WebForms, as well as Microsoft SQL Server.
+        </p>
+        <p i18n="neogeoDescription4|Fourth block of the description of the job at NeoGeo@@careerNeogeoDescription4">
+          In addition, I was able to familiarize with many tools for different problems in the context 
+          of real-world applications, like Cordova (formerly known as PhoneGap), Xamarin, Windows Services, WIX and Silverlight.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-card-content>
+</mat-card>

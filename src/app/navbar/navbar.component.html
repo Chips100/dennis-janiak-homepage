@@ -1,0 +1,21 @@
+<mat-toolbar class="sticky-toolbar print-hidden" color="primary">
+  <a routerLink="/home" class="unstyled">Dennis Janiak &nbsp;</a>
+
+  <!-- Right aligned: Language selector and menu. -->
+  <span class="fill-remaining-space"></span>
+
+  <!-- Menu with all available languages. -->
+  <mat-menu #languageMenu="matMenu" [overlapTrigger]="false">
+    <a mat-menu-item
+        href="/{{language.name}}/index.html"
+        *ngFor="let language of languages">
+        <mat-icon class="selected-icon" [ngClass]="{ active: isLanguageSelected(language) }">done</mat-icon>
+        {{ language.displayName }}
+    </a>
+  </mat-menu>
+
+  <!-- Icon button allows opening of the menu. -->
+  <button mat-icon-button [matMenuTriggerFor]="languageMenu">
+    <mat-icon>language</mat-icon>
+  </button>
+</mat-toolbar>

@@ -1,0 +1,47 @@
+<mat-card class="profile-card mat-elevation-z4">
+  <!-- Profile picture with basic information. -->
+  <mat-card-content>
+    <div class="profile-picture-container">
+      <img src="assets/images/profile-picture.png" />
+    </div>
+    <div class="description">
+      <div>Dennis Janiak</div>
+      <div i18n="profileTitle|Job title in the profile summary@@profileTitle">Developer</div>
+      <div i18n="profileLocation|Location in the profile summary@@profileLocation">Hamburg, Germany</div>
+    </div>
+    <div class="keywords">
+      <mat-chip-list>
+        <mat-chip *ngFor="let keyword of skills.summarized" selected color="primary">{{ keyword }}</mat-chip>
+      </mat-chip-list>
+    </div>
+  </mat-card-content>
+
+  <!-- Links -->
+  <mat-divider></mat-divider>
+  <mat-card-footer>
+    <div class="profile-links print-hidden">
+      <!-- Github profile -->
+      <div>
+        <a href="https://github.com/Chips100" target="_blank" matTooltip="GitHub" mat-icon-button
+          mat-raised-button class="third-party-link">
+          <img src="assets/images/github-mark-light-64.png" />
+        </a>
+      </div>
+
+      <!-- StackOverflow profile -->
+      <div>
+        <a href="https://stackoverflow.com/users/927511/dennis" target="_blank" matTooltip="stackoverflow" mat-icon-button
+          mat-raised-button class="third-party-link">
+          <img src="assets/images/stackoverflow.png" />
+        </a>
+      </div>
+
+      <!-- Mail contact -->
+      <div>
+        <a href="mailto:info@dennis-janiak.de" mat-icon-button mat-raised-button matTooltip="E-Mail">
+          <mat-icon class="mail-icon">mail</mat-icon>
+        </a>
+      </div>
+    </div>
+  </mat-card-footer>
+</mat-card>
