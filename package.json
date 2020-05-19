@@ -1,14 +1,18 @@
 {
   "name": "dennis-janiak-homepage",
   "version": "0.0.0",
+  "description": "My personal online appearance hosted on https://www.dennis-janiak.de/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "jest",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "npm run build && firebase login && firebase deploy"
   },
+  "author": "Dennis Janiak",
+  "license": "MIT",
   "private": true,
   "jest": {
     "preset": "jest-preset-angular",
@@ -42,6 +46,7 @@
     "@types/jest": "^25.2.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
+    "firebase-tools": "^7.0.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "jest": "^26.0.1",
