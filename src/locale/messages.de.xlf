@@ -357,18 +357,6 @@
         <note priority="1" from="meaning">bachelorTodoHeader</note>
         <target>Ausstehende Aufgaben</target>
       </trans-unit>
-      <trans-unit id="educationBachelorTodoAcknowledgement" datatype="html">
-        <source>
-                        Acknowledgment of experience from work
-                    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
-          <context context-type="linenumber">78</context>
-        </context-group>
-        <note priority="1" from="description">Name of the task to get job experience acknowledged for the Bachelor degree</note>
-        <note priority="1" from="meaning">bachelorTodoAcknowledgement</note>
-        <target>Anerkennung berufspraktischer Leistungen (Fachpraktikum)</target>
-      </trans-unit>
       <trans-unit id="educationBachelorTodoThesis" datatype="html">
         <source>
                         Bachelor thesis
