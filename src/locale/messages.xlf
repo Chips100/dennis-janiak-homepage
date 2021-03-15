@@ -201,7 +201,7 @@
       </trans-unit>
       <trans-unit id="educationBachelorDate" datatype="html">
         <source>
-                Graduation 2020 (planned)
+                Graduation 2021
             </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
@@ -279,27 +279,27 @@
         <note priority="1" from="description">Name of the programming module of the Bachelor degree</note>
         <note priority="1" from="meaning">moduleProgramming</note>
       </trans-unit>
-      <trans-unit id="educationBachelorTodoHeader" datatype="html">
+      <trans-unit id="educationBachelorThesisHeader" datatype="html">
         <source>
-                    To-Do
+                    Final thesis
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
           <context context-type="linenumber">72</context>
         </context-group>
-        <note priority="1" from="description">Header for the pending tasks of the Bachelor degree</note>
-        <note priority="1" from="meaning">bachelorTodoHeader</note>
+        <note priority="1" from="description">Header for the final thesis for the Bachelor degree</note>
+        <note priority="1" from="meaning">bachelorThesisHeader</note>
       </trans-unit>
-      <trans-unit id="educationBachelorTodoThesis" datatype="html">
+      <trans-unit id="educationBachelorThesisTitle" datatype="html">
         <source>
-                        Bachelor thesis
+                        Applications of Domain-Driven Design in digital transformation of public administration
                     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/education/education.component.html</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">80</context>
         </context-group>
-        <note priority="1" from="description">Name of the task to create the final thesis for the Bachelor degree</note>
-        <note priority="1" from="meaning">bachelorTodoThesis</note>
+        <note priority="1" from="description">Title of the final thesis for the Bachelor degree</note>
+        <note priority="1" from="meaning">bachelorThesisTitle</note>
       </trans-unit>
       <trans-unit id="educationApprenticeshipHeader" datatype="html">
         <source>
